@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import MoviesDetails from './MoviesDetails';
 
 export const ImageWraper = styled.div`
   width: 250px;
