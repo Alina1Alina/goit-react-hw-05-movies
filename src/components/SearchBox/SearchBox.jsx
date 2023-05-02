@@ -8,6 +8,11 @@ export const SearchBox = ({ onSubmit }) => {
     if (inputValue) {
       onSubmit(inputValue);
     }
+
+
+
+
+    
   };
   const handleChange = e => {
     const { value } = e.target;
