@@ -31,7 +31,7 @@ export const Movies = () => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    // setValue(e.target.elements.query.value);
+    setValue(e.target.elements.query.value);
     setSearchParams(
       value !== '' ? {} : { query: e.target.elements.query.value }
     );
