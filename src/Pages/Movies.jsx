@@ -26,30 +26,10 @@ export const Movies = () => {
     searchMovie();
   }, [query]);
 
-  // useEffect(() => {
-  //   if (!value) {
-  //     return;
-  //   }
-  //   const searchMovie = async () => {
-  //     try {
-  //       const data = await MovieSearchApi(value);
-  //       if (data.results.length === 0) {
-  //         alert(`no response on request ${value}`);
-  //         return;
-  //       }
-  //       setMovies(data.results);
-  //     } catch (error) {
-  //       console.log(error.message);
-  //     }
-  //   };
-
-  //   searchMovie();
-  // }, [value]);
-
   const handleSubmit = e => {
     e.preventDefault();
 
-    // setValue(e.target.elements.query.value);
+    setValue(e.target.elements.query.value);
     setSearchParams(
       value !== '' ? {} : { query: e.target.elements.query.value }
     );
