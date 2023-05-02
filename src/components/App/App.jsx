@@ -7,9 +7,9 @@ import MoviesDetails from '../MoviesDetails/MoviesDetails';
 
 
  
-const Home = lazy(() => import('components/Pages/Home'));
-const Movies = lazy(() => import('components/Pages/Movies'));
-const NotFound = lazy(() => import('components/Pages/NotFound'));
+const Home = lazy(() => import('Pages/Home'));
+const Movies = lazy(() => import('Pages/Movies'));
+const NotFound = lazy(() => import('Pages/NotFound'));
 const Cast = lazy(() => import('../Cast/Cast'));
 const Reviews = lazy(() => import('../Reviews/Reviews'));
 

@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { getMovieDetails } from 'components/Servise/MovieApi';
+import { getMovieDetails } from 'Servise/MovieApi';
 import { CastList, CastImg } from './Cast.styled';
-import { getImages } from '../Servise/MovieApi';
+import { getImages } from '../../Servise/MovieApi';
 
 export const Cast = () => {
   const { movieId } = useParams();

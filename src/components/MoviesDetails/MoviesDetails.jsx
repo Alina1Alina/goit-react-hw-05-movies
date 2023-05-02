@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
-import { getMovieDetails, getImages } from '../Servise/MovieApi';
-import MovieInfo from 'components/MovieInfo';
+import { getMovieDetails, getImages } from '../../Servise/MovieApi';
+import MovieInfo from 'Pages/MovieInfo';
 import { Button, DetailsLink } from './MoviesDetails.styled';
 
 export const MoviesDetails = () => {

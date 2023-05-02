@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import HomeApi from 'components/Servise/HomeApi';
+import HomeApi from 'Servise/HomeApi';
 import { List, Item, LinkItem } from './Home.styled';
 import { useLocation } from 'react-router-dom';
 
