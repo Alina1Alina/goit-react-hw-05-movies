@@ -4,7 +4,7 @@ import {
   Container,
   Wrapper,
   Genres,
-} from '../components/MoviesDetails/MoviesDetails.styled';
+} from './MoviesDetails/MoviesDetails.styled';
 
 export const MovieInfo = ({ imageData, movie }) => {
   const { title, release_date, vote_average, overview, poster_path } = movie;

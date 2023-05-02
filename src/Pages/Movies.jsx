@@ -31,7 +31,7 @@ export const Movies = () => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    setValue(e.target.elements.query.value);
+    // setValue(e.target.elements.query.value);
     setSearchParams(
       value !== '' ? {} : { query: e.target.elements.query.value }
     );
@@ -40,7 +40,7 @@ export const Movies = () => {
 
   return (
     <>
-      {movies && <SearchBox handleSubmit={handleSubmit} />}
+       <SearchBox handleSubmit={handleSubmit} />
       <List>
         {movies.map(({ title, id }) => (
           <Item key={id}>

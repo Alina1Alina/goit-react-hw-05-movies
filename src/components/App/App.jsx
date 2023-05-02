@@ -3,7 +3,7 @@ import { lazy, Suspense } from 'react';
 
 import Navigation from 'components/Navigation';
 import { Container } from './App.styled';
-import MoviesDetails from '../MoviesDetails/MoviesDetails';
+import MoviesDetails from '../../Pages/MoviesDetails';
 
 
  
