@@ -24,6 +24,8 @@ export const Movies = () => {
       }
     };
     searchMovie();
+
+    
   }, [query]);
 
   const handleSubmit = e => {
