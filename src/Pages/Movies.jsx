@@ -5,7 +5,7 @@ import { List, Item, LinkItem } from './Home.styled';
 import SearchBox from 'components/SearchBox/SearchBox';
 
 export const Movies = () => {
-  const [value, setValue] = useState('');
+  // const [value, setValue] = useState('');
   const [movies, setMovies] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
   const location = useLocation();
@@ -31,9 +31,9 @@ export const Movies = () => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    setValue(e.target.elements.query.value);
+    // setValue(e.target.elements.query.value);
     setSearchParams(
-      value !== '' ? {} : { query: e.target.elements.query.value }
+      { query: e.target.elements.query.value }
     );
     e.target.elements.query.value = '';
   };
